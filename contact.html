@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+<section>
+  <div class="container" style="text-align: center; margin-top: 40px;">
+    <h2>Me contacter</h2>
+    <form action="mailto:hesronhrnmkdb@gmail.com" method="post" enctype="text/plain" style="display: inline-block; text-align: left;">
+      <label for="name">Nom :</label><br>
+      <input type="text" id="name" name="Nom" required style="width: 300px; padding: 8px;"><br><br>
+
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" name="Email" required style="width: 300px; padding: 8px;"><br><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="Message" rows="5" required style="width: 300px; padding: 8px;"></textarea><br><br>
+
+      <input type="submit" value="Envoyer" style="padding: 8px 16px;">
+    </form>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 hesron's site</p>
+  </footer>
+</body>
+</html>
